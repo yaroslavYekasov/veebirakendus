@@ -9,5 +9,63 @@ header h1{
     font-size: larger;
     letter-spacing: 0.15cm;
     border-bottom: solid 10pt crimson; /*dotted dashed double*/
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    colour: crimson;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-right: solid 1px black;
+    font-variant: all-small-caps;
+}
+ul{
+    list-style-type: none;
+    margin: 10px; /*otstup ot kraja sstranicy*/
+    padding: 5px; /*otstup ot kraja ssylok*/
+    overflow: hidden;
+    background-color: crimson;
+}
+li a:hover{
+    background-color: black;
+    color: crimson;
+    text-decoration: underline crimson;
+}
+img#pilt1{
+    width:20%;
+}
+img#pilt2{
+    width:30%;
+    border: dotted 2pt crimson;
+}
+img#pilt3{
+    width:40%;
+    border: solid 1pt black;
+    border-radius: 60px;
+}
 
+section#paw1{
+    width:20%;
+    border: solid 3pt green;
+    border-radius: 60px;
+    background-color: fuchsia;
+    font-size: large;
+}
+section#paw2{
+    width:40%;
+    border: solid 6pt blue;
+    border-radius: 60px;
+    background-color: yellow;
+    font-size: 25px;
+}
+section#paw3{
+    width:30%;
+    border: solid 5pt crimson;
+    border-radius: 10px;
+    background-color: purple;
+    font-size: small;
 }
